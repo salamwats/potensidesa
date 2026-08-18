@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potensi Desa Salamwates</title>
+    <meta
+      name="description"
+      content="Website profil desa KKN, menampilkan lokasi, observasi dusun, dan galeri kegiatan."
+    />
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+     <!-- Harmoni Salamwates: Jejak Karya & Harapan -->
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">Nafas<span>Salamwates</span>.</a>
+        <ul class="nav-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#about">Profil</a></li>
+          <li><a href="#gallery">Galeri Dusun</a></li>
+          <li><a href="#location">Lokasi</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="fade-in-up">Selamat Datang di Potensi Desa Salamwates</h1>
+        <p class="fade-in-up delay-1">
+          Membangun harmoni, mengeksplorasi potensi, dan mewujudkan
+          kesejahteraan masyarakat.
+        </p>
+        <a href="#about" class="btn btn-primary fade-in-up delay-2"
+          >Mulai Menjelajah</a
+        >
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Potensi Desa Salamwates</h2>
+          <p>Mengenal berbagai potensi Desa Salamwates.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text slide-in-left">
+            <h3>Desa Asri Penuh Potensi</h3>
+            <p>
+              Desa Salamwates, yang terletak di Kecamatan Dongko, Kabupaten
+              Trenggalek, memiliki beragam potensi alam, ekonomi, dan budaya
+              yang dapat dikembangkan secara berkelanjutan. Masyarakatnya
+              mengandalkan berbagai sektor mulai dari pertanian, perkebunan,
+              peternakan kambing, kerajinan mebel, hingga UMKM rumah tangga dan
+              pelestarian kesenian lokal. Melalui observasi, terlihat bahwa
+              sektor pertanian dan perkebunan tidak sekadar menjadi aktivitas
+              produksi, tetapi juga menjadi bagian dari kehidupan sehari-hari
+              sekaligus salah satu sumber penghidupan utama masyarakat. Beragam
+              aktivitas produktif ini dijalankan di setiap wilayah dan memiliki
+              peluang besar untuk terus dikembangkan menuju kesejahteraan
+              masyarakat.
+            </p>
+          </div>
+          <div class="about-image slide-in-right">
+            <!-- Placeholder using unspash source if images are not yet generated -->
+            <img
+              src="assets/images/salamwates/bhero.jpeg"
+              alt="Pemandangan Desa"
+              id="about-img"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1596422846543-74c6fc0e1371?q=80&w=1000&auto=format&fit=crop';
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding bg-light" id="gallery">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hasil Observasi Dusun</h2>
+          <p>Dokumentasi kegiatan dan penemuan kami di berbagai dusun.</p>
+        </div>
+        <div class="gallery-grid">
+          <!-- Gallery items with links -->
+          <a href="krajan.html" class="gallery-item page-transition">
+            <img
+              src="assets/images/krajan/tani.jpeg"
+              alt="Observasi Dusun Krajan"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1598113197621-9fb9b2fc79e7?q=80&w=800&auto=format&fit=crop';
+              "
+            />
+            <div class="gallery-overlay">
+              <h3>Dusun Krajan</h3>
+              <p>Kegiatan pertanian dan gotong royong warga.</p>
+            </div>
+          </a>
+          <a href="sobo.html" class="gallery-item page-transition">
+            <img
+              src="assets/images/sobo/foto2.jpeg"
+              alt="Observasi Dusun Sobo"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1558904541-efa843a96f09?q=80&w=800&auto=format&fit=crop';
+              "
+            />
+            <div class="gallery-overlay">
+              <h3>Dusun Sobo</h3>
+              <p>Sentra kerajinan bambu dan anyaman lokal.</p>
+            </div>
+          </a>
+          <a href="belang.html" class="gallery-item page-transition">
+            <img
+              src="assets/images/belang/foto2.png"
+              alt="Observasi Dusun Belang"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1505886361715-dbdd1a26027a?q=80&w=800&auto=format&fit=crop';
+              "
+            />
+            <div class="gallery-overlay">
+              <h3>Dusun Belang</h3>
+              <p>Inovasi olahan hasil bumi dan kerajinan bambu.</p>
+            </div>
+          </a>
+          <a href="kori.html" class="gallery-item page-transition">
+            <img
+              src="assets/images/kori/kambinghero.jpg"
+              alt="Observasi Dusun Kori"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=800&auto=format&fit=crop';
+              "
+            />
+            <div class="gallery-overlay">
+              <h3>Dusun Kori</h3>
+              <p>Peternakan kambing dan pertanian porang.</p>
+            </div>
+          </a>
+          <a href="jajar.html" class="gallery-item page-transition">
+            <img
+              src="assets/images/jajar/jajarhero.png"
+              alt="Observasi Dusun Jajar"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=800&auto=format&fit=crop';
+              "
+            />
+            <div class="gallery-overlay">
+              <h3>Dusun Jajar</h3>
+              <p>Aktivitas pertanian dan gotong royong warga.</p>
+            </div>
+          </a>
+        </div>
+        <div class="observasi-summary">
+          <h3>Membangun Masa Depan Desa</h3>
+          <p>
+            Setiap dusun di Desa Salamwates membuktikan bahwa keterbatasan bukan
+            penghalang untuk berkreasi. Pengembangan berbagai sektor dari
+            pertanian hingga UMKM ini membutuhkan keterlibatan masyarakat
+            sebagai pelaku utama, ditambah dukungan pemerintah desa, serta
+            semangat inovasi dari generasi muda. Melalui kolaborasi dan
+            pemanfaatan teknologi digital, seluruh potensi yang dimiliki Desa
+            Salamwates siap melangkah lebih maju dan menjangkau pasar yang jauh
+            lebih luas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section (Google Maps) -->
+    <section class="location section-padding" id="location">
+      <div class="container">
+        <div class="section-title">
+          <h2>Lokasi Desa</h2>
+          <p>Temukan lokasi desa kami melalui Google Maps.</p>
+        </div>
+        <div class="map-container">
+          <!-- Embed iframe map -->
+          <iframe
+            src="https://maps.google.com/maps?q=Balai+Desa+Salamwates,+Kec.+Dongko,+Kabupaten+Trenggalek,+Jawa+Timur&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-info">
+          <h3>Potensi<span>Salamwates</span>.</h3>
+          <p>
+            Website ini dibuat untuk mendokumentasikan profil desa dan hasil
+            observasi tim KKN secara modern dan informatif.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Tautan Cepat</h4>
+          <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Profil Desa</a></li>
+            <li><a href="#gallery">Galeri Dusun</a></li>
+            <li><a href="#location">Peta Lokasi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tim KKN UBhi 2026.</p>
+      </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
